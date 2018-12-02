@@ -1,0 +1,15 @@
+{
+  "name": "christmas-tree-server",
+  "version": "1.0.0",
+  "description": "respond to requests from ifttt and notify websocket users",
+  "main": "index.js",
+  "author": "Alex Marmon",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
